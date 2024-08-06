@@ -1,0 +1,23 @@
+.about-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-photo {
+    width: 300px; 
+    height: auto;
+    margin-right: 10px; 
+    border-radius: 50%; 
+}
+
+.about {
+    text-align: center;
+}
+
+.about-text {
+    text-align: center;
+    flex: 1;
+    margin: 100px;
+    margin-top: 20px;
+    margin-left: 100px;
+}

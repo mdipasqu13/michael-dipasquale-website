@@ -1,0 +1,35 @@
+.project p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+    max-width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.project img {
+    width: 10%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.project {
+    text-align: center;
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.project a {
+    display: inline-block;
+    margin: 0 5px;
+}

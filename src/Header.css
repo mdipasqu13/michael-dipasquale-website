@@ -1,0 +1,60 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: flex;
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+    margin: 0;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links li:not(:last-child)::after {
+    content: "|";
+    margin-left: 20px; 
+    color: white; 
+  }
+  
+  .header-content {
+    text-align: center;
+  }
+  
+  .header-content h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header-content p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  
+  
+  #about, #skills, #projects, #contact {
+    scroll-margin-top: 90px; 
+  }
+  
+  

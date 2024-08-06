@@ -1,0 +1,25 @@
+.skills {
+    text-align: center;
+  }
+  
+  .skill-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr);
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skill-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skill-list img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
