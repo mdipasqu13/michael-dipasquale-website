@@ -11,7 +11,7 @@ function App() {
  
 
   const leftHalfStyle = {
-    width: isMobile ? '100%' : '30%',
+    width: isMobile ? '100%' : '25%',
     // width: '30%',
     backgroundColor: '#f0f0f0',
     display: 'flex',
@@ -19,7 +19,7 @@ function App() {
     justifyContent: 'flex-start',
     alignItems: 'center',
     padding: isMobile ? '10px' : '20px',
-    backgroundImage: `url(${process.env.PUBLIC_URL}/backgrounddark.jpeg)`,
+    backgroundImage: `url(${process.env.PUBLIC_URL}/bluegreenbackground.jpg)`,
     backgroundRepeat: 'no-repeat', 
     backgroundSize: 'cover', 
     backgroundPosition: 'center', 
