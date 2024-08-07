@@ -79,3 +79,35 @@
   color: white;
   margin-left: 150px;
 }
+
+@media only screen and (max-width: 600px) {
+  .left-half {
+    width: 100%;
+    padding: 10px;
+    margin-left: 0;
+  }
+
+  .profile-photo {
+    margin-left: 0;
+  }
+
+  .social-icons {
+    margin-left: 0;
+  }
+
+  .email-link {
+    margin-left: 0;
+  }
+
+  .profile-name {
+    margin-left: 0;
+  }
+
+  .profile-title {
+    margin-left: 0;
+  }
+
+  .right-half {
+    width: 100%;
+  }
+}

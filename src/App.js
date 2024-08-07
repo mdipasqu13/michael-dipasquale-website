@@ -4,18 +4,21 @@ import Header from './Header.js';
 import Projects from './Projects.js';
 import Skills from './Skills.js';
 import About from './About.js';
+import { useMediaQuery } from 'react-responsive';
 
 function App() {
+  const isMobile = useMediaQuery({ query: '(max-width: 600px)' });
  
 
   const leftHalfStyle = {
-    width: '30%',
+    width: isMobile ? '100%' : '30%',
+    // width: '30%',
     backgroundColor: '#f0f0f0',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'flex-start',
     alignItems: 'center',
-    padding: '20px',
+    padding: isMobile ? '10px' : '20px',
     backgroundImage: `url(${process.env.PUBLIC_URL}/backgrounddark.jpeg)`,
     backgroundRepeat: 'no-repeat', 
     backgroundSize: 'cover', 
