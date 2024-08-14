@@ -20,7 +20,7 @@ function App() {
     alignItems: 'center',
     padding: isMobile ? '10px' : '20px',
     backgroundImage: `url(${process.env.PUBLIC_URL}/bluegreenbackground.jpg)`,
-    backgroundRepeat: 'no-repeat', 
+    // backgroundRepeat: 'no-repeat', 
     backgroundSize: 'cover', 
     backgroundPosition: 'center', 
   };
